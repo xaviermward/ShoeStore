@@ -19,6 +19,17 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay"/>
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLayoutBased"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="@string/layout_based"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
     </com.google.android.material.appbar.AppBarLayout>
 
 
